@@ -7,7 +7,7 @@ import (
 var (
 	rootCmd = &cobra.Command{
 		Use:   "flo",
-		Short: "TODO",
+		Short: "flo-cli you can user build, create",
 		Long:  `TODO`,
 	}
 )
