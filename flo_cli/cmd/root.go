@@ -8,7 +8,7 @@ var (
 	rootCmd = &cobra.Command{
 		Use:   "flo",
 		Short: "flo-cli you can user build, create",
-		Long:  `TODO`,
+		Long:  `12`,
 	}
 )
 
