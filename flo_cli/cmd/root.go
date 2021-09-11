@@ -7,8 +7,8 @@ import (
 var (
 	rootCmd = &cobra.Command{
 		Use:   "flo",
-		Short: "flo-cli you can user build, create",
-		Long:  `12`,
+		Short: "flo-cli",
+		Long:  `flo命令工具集`,
 	}
 )
 
@@ -19,4 +19,5 @@ func Execute() error {
 
 func init() {
 	rootCmd.AddCommand(buildCmd)
+	rootCmd.AddCommand(runCmd)
 }
