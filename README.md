@@ -1,4 +1,4 @@
-![flo](https://raw.githubusercontent.com/HelloWorldImW/flo/main/icon.png)  
+![flo](https://raw.githubusercontent.com/HelloWorldImW/flo/main/flo.png)  
 
 # Flo
 
