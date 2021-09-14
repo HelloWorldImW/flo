@@ -4,6 +4,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/HelloWorldImW/flo)
 ![GitHub](https://img.shields.io/github/license/HelloWorldImW/flo)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/HelloWorldImW/flo/FlutterBuild)
 
 ## Introduction
 
