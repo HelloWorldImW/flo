@@ -1,5 +1,8 @@
-on: push
-name: build and test app
+on: 
+  push:
+    branches:
+      - main
+name: FlutterBuild
 jobs:
   build:
     name: install dependencies
