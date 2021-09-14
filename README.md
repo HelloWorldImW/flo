@@ -5,6 +5,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/HelloWorldImW/flo)
 ![GitHub](https://img.shields.io/github/license/HelloWorldImW/flo)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/HelloWorldImW/flo/FlutterBuild)
+![GitHub issues](https://img.shields.io/github/issues/HelloWorldImW/flo)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/HelloWorldImw/flo)
+![platform support](https://img.shields.io/badge/platform-ios%7Cmac%7Clinux%7Cwindows%7Cweb-green)
 
 ## Introduction
 
