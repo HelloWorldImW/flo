@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    
+    - name: Goto Dir
+      run:
+        cd ./flo_main
 
     - name: install dependencies
       uses: steebchen/flutter@v1.1.0
