@@ -15,16 +15,12 @@ jobs:
         cd ./flo_main
 
     - name: install dependencies
-      uses: steebchen/flutter@v1.1.0
-      with:
-        args: pub get
+      run:
+        cd ./flo_main;flutter pub get
 
     - name: enable web
-      uses: steebchen/flutter@v1.1.0
-      with:
-        args: config --enable-web
-
+      run:
+        cd ./flo_main;flutter config --enable-web
     - name: build web
-      uses: steebchen/flutter@v1.1.0
-      with:
-        args: build web --release
+      run:
+        cd ./flo_main;flutter build web --release
