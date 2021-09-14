@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - uses: geowatson/flutter-latest@1.0.0
+
     
     - name: Goto Dir
       run:
