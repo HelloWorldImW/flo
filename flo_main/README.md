@@ -1,4 +1,6 @@
-# flo_main
+![flo cli](https://raw.githubusercontent.com/HelloWorldImW/flo/main/flo_cli/flo_main.png)  
+
+# Flo Main
 
 A new Flutter project.
 
