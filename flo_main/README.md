@@ -1,4 +1,4 @@
-![flo cli](https://raw.githubusercontent.com/HelloWorldImW/flo/main/flo_cli/flo_main.png)  
+![flo cli](https://raw.githubusercontent.com/HelloWorldImW/flo/main/flo_main/flo_main.png)  
 
 # Flo Main
 
