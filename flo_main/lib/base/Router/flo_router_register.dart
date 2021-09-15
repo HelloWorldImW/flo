@@ -13,7 +13,7 @@ const String FloRouters_Home = "home/"; //主页
 
 class FloRouterRegister {
   static Map<String, Handler> routers = {
-    FloRouters_Home: Handler(handlerFunc: (BuildContext context, Map<String, dynamic> params) {
+    FloRouters_Home: Handler(handlerFunc: (BuildContext? context, Map<String, dynamic> params) {
       return FloHomePage();
     }),
   };

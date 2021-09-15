@@ -25,12 +25,12 @@ class FloRouters {
     FloRouterRegister.initRouter(_router);
   }
   
-  static pop<T>(BuildContext context, [T result]) => _router.pop<T>(context, result);
+  static pop<T>(BuildContext context, [T? result]) => _router.pop<T>(context, result);
 
   static Future navigateTo(BuildContext context, String path, { 
-    Map<String, dynamic> params, bool replace = false, bool clearStack = false,
-    bool maintainState = true, bool rootNavigator = false, TransitionType transition, Duration transitionDuration,
-    RouteTransitionsBuilder transitionBuilder, RouteSettings routeSettings }) {
+    Map<String, dynamic>? params, bool replace = false, bool clearStack = false,
+    bool maintainState = true, bool rootNavigator = false, TransitionType? transition, Duration? transitionDuration,
+    RouteTransitionsBuilder? transitionBuilder, RouteSettings? routeSettings }) {
       String query = "";
       if (params != null) {
         int index = 0;
@@ -50,9 +50,9 @@ class FloRouters {
   }
 
   static Future pushTo(BuildContext context, String path, {
-    Map<String, dynamic> params, bool replace = false, bool clearStack = false, bool maintainState = true,
-    bool rootNavigator = false, TransitionType transition = TransitionType.cupertino, Duration transitionDuration,
-    RouteTransitionsBuilder transitionBuilder, RouteSettings routeSettings }) {
+    Map<String, dynamic>? params, bool replace = false, bool clearStack = false, bool maintainState = true,
+    bool rootNavigator = false, TransitionType transition = TransitionType.cupertino, Duration? transitionDuration,
+    RouteTransitionsBuilder? transitionBuilder, RouteSettings? routeSettings }) {
     return navigateTo(context, path, params: params, replace: replace, clearStack: clearStack, maintainState: maintainState, rootNavigator: rootNavigator, transition: transition, transitionDuration: transitionDuration,transitionBuilder: transitionBuilder,routeSettings: routeSettings);
   }
 }

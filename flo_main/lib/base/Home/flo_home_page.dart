@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class FloHomePage extends StatefulWidget {
-  FloHomePage({Key key}) : super(key: key);
+  FloHomePage({Key? key}) : super(key: key);
 
   @override
   _FloHomePageState createState() => _FloHomePageState();
@@ -21,7 +21,7 @@ class _FloHomePageState extends State<FloHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Overland PDA"),
+        title: Text("Flo"),
       ),
       body:  Text("TODO")
     );
